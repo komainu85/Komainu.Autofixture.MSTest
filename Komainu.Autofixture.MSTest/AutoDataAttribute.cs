@@ -14,7 +14,7 @@ namespace Komainu.AutoFixture.MSTest
     {
         private readonly Lazy<IFixture> _fixtureLazy;
 
-        private IFixture Fixture => _fixtureLazy.Value;
+        public IFixture Fixture => _fixtureLazy.Value;
 
         public AutoDataAttribute() : this(() => new Fixture())
         {
