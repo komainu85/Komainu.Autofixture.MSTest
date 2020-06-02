@@ -30,7 +30,7 @@ namespace Komainu.AutoFixture.MSTest
 
         public string DisplayName { get; private set; }
 
-        public IEnumerable<object[]> GetData(MethodInfo method)
+        public virtual IEnumerable<object[]> GetData(MethodInfo method)
         {
             if (method == null)
                 throw new ArgumentNullException("method");
