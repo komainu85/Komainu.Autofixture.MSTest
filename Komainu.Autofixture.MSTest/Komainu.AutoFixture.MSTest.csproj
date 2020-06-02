@@ -6,6 +6,7 @@
     <Authors>Mike Robbins</Authors>
     <PackageId>Komainu.AutoFixture.MSTest</PackageId>
     <Description>MSTest Adapter for AutoFixture</Description>
+    <PackageLicenseUrl>https://licenses.nuget.org/MIT</PackageLicenseUrl>
   </PropertyGroup>
 
  <ItemGroup>
